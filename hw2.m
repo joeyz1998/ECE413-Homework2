@@ -16,7 +16,7 @@ close all; clc; clear all;
 %% Constants
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 constants.fs=44100;                     % Sampling rate in samples per second
-constants.durationScale=12;             % Duration of notes in a scale
+constants.durationScale=.2;             % Duration of notes in a scale
 constants.durationChord=4;              % Duration of chords
 STDOUT=1;                               % Define the standard output stream
 STDERR=2;                               % Define the standard error stream

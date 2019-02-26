@@ -5,6 +5,7 @@ The hw2.m function plays through each note with each type of synthesis. Then it 
 
 In order to create chords, I kept the get_frequencies, and get_root_frequencies, and create_chord functions from assignment one. I had to slightly alter the input arguments of create_sound to accept a root frequency instead of a note structure. This was in order for the function to be compatable with the create_chord function. 
 
+The chowning bell function shows some of the experimentation I did while preparing this assignment. 
 
 Discussion:
 

@@ -1,9 +1,9 @@
 Daniel Zuerbig
 Music and Engineering MATLAB Project 2
 
-The hw2.m function plays through each note with each type of synthesis. Then it proceeds to play 4 chords for each synthesis type. For brevity sake, I decided to keep the duration of each note .2 seconds, because this sounded better for some of the synthesis types. Because of this, I decided to keep the chord length at .2 seconds. 
+The hw2.m function plays through each note with each type of synthesis. For brevity sake, I decided to keep the duration of each note .2 seconds, because this sounded better for some of the synthesis types. The chord length is still 4 seconds, but for some instrument types this doesn't sound as good.
 
-In order to create chords, I kept the get_frequencies, and get_root_frequencies, and create_chord functions from assignment one. I had to slightly alter the input arguments of create_sound to accept a root frequency instead of a note structure. This was in order for the function to be compatable with the create_chord function. 
+I implemented just chords, but I decided to hard code the chord types, because it was not sufficient to just read off the sequence of notes. 
 
 The chowning bell function shows some of the experimentation I did while preparing this assignment. 
 
